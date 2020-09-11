@@ -7,7 +7,7 @@ import PatientList from "./components/patient-list/patient-list";
 import { Box } from "@material-ui/core";
 
 const client = new ApolloClient({
-  uri: "https://vm8mjvrnv3.lp.gql.zone/graphql",
+  uri: "http://localhost:4000/graphql",
 });
 
 function App() {
